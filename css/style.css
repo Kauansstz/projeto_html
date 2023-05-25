@@ -1,4 +1,51 @@
-* {
+*{
     margin: 0;
-    padding: 0 2%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 1%;
+    padding:0 1% ;
+}
+
+header {
+    padding: 20px 0;
+}
+.menu{
+    width: 20%;
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo{
+    width: 80%;
+}
+.botao1{
+    width: 100%;
+}
+
+.botao1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    right: 50%;
+}
+
+
+.tabela{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    padding:0 1% ;
+    justify-content: center;
 }
